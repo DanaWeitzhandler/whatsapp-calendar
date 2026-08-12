@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: #222;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+#phone-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#status {
+  color: #666;
+  font-size: 0.9rem;
+  min-height: 1.2em;
+}
+
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0.35rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+li.cancelled {
+  text-decoration: line-through;
+  color: #999;
+}
